@@ -75,7 +75,6 @@ namespace hospital_management_system.gui.forms
             this.ageLabel = new System.Windows.Forms.Label();
             this.birthDatePanel = new System.Windows.Forms.Panel();
             this.birthDateLabel = new System.Windows.Forms.Label();
-            this.birthdateTB = new System.Windows.Forms.Panel();
             this.contactNumPanel = new System.Windows.Forms.Panel();
             this.contactNumberLabel = new System.Windows.Forms.Label();
             this.contactNumTB = new System.Windows.Forms.Panel();
@@ -95,6 +94,7 @@ namespace hospital_management_system.gui.forms
             this.emailLabel = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.emailTextbox = new System.Windows.Forms.TextBox();
+            this.birthdateTB = new System.Windows.Forms.Panel();
             this.birthdateCalendar = new System.Windows.Forms.DateTimePicker();
             this.billingPanel.SuspendLayout();
             this.billingDetails.SuspendLayout();
@@ -234,17 +234,17 @@ namespace hospital_management_system.gui.forms
             this.panel2.Location = new System.Drawing.Point(343, 4);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(331, 41);
+            this.panel2.Size = new System.Drawing.Size(311, 41);
             this.panel2.TabIndex = 1;
             // 
             // billingIdTextBox
             // 
             this.billingIdTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.billingIdTextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.billingIdTextBox.Location = new System.Drawing.Point(4, 4);
+            this.billingIdTextBox.Location = new System.Drawing.Point(-6, 4);
             this.billingIdTextBox.Margin = new System.Windows.Forms.Padding(7, 2, 3, 2);
             this.billingIdTextBox.Name = "billingIdTextBox";
-            this.billingIdTextBox.Size = new System.Drawing.Size(307, 34);
+            this.billingIdTextBox.Size = new System.Drawing.Size(317, 34);
             this.billingIdTextBox.TabIndex = 11;
             // 
             // panel3
@@ -275,17 +275,17 @@ namespace hospital_management_system.gui.forms
             this.panel4.Location = new System.Drawing.Point(343, 53);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(331, 41);
+            this.panel4.Size = new System.Drawing.Size(311, 41);
             this.panel4.TabIndex = 3;
             // 
             // registrationNumTB
             // 
             this.registrationNumTB.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.registrationNumTB.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.registrationNumTB.Location = new System.Drawing.Point(4, 3);
+            this.registrationNumTB.Location = new System.Drawing.Point(-6, 3);
             this.registrationNumTB.Margin = new System.Windows.Forms.Padding(7, 2, 3, 2);
             this.registrationNumTB.Name = "registrationNumTB";
-            this.registrationNumTB.Size = new System.Drawing.Size(307, 34);
+            this.registrationNumTB.Size = new System.Drawing.Size(317, 34);
             this.registrationNumTB.TabIndex = 12;
             // 
             // panel5
@@ -315,7 +315,7 @@ namespace hospital_management_system.gui.forms
             this.panel6.Location = new System.Drawing.Point(343, 102);
             this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(331, 41);
+            this.panel6.Size = new System.Drawing.Size(311, 41);
             this.panel6.TabIndex = 5;
             // 
             // statusComboBox
@@ -360,17 +360,17 @@ namespace hospital_management_system.gui.forms
             this.panel8.Location = new System.Drawing.Point(343, 151);
             this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(331, 41);
+            this.panel8.Size = new System.Drawing.Size(311, 41);
             this.panel8.TabIndex = 7;
             // 
             // roomChargetextBox
             // 
             this.roomChargetextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.roomChargetextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.roomChargetextBox.Location = new System.Drawing.Point(4, 3);
+            this.roomChargetextBox.Location = new System.Drawing.Point(-6, 3);
             this.roomChargetextBox.Margin = new System.Windows.Forms.Padding(7, 2, 3, 2);
             this.roomChargetextBox.Name = "roomChargetextBox";
-            this.roomChargetextBox.Size = new System.Drawing.Size(307, 34);
+            this.roomChargetextBox.Size = new System.Drawing.Size(317, 34);
             this.roomChargetextBox.TabIndex = 10;
             // 
             // panel9
@@ -400,17 +400,17 @@ namespace hospital_management_system.gui.forms
             this.panel10.Location = new System.Drawing.Point(343, 200);
             this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(331, 41);
+            this.panel10.Size = new System.Drawing.Size(311, 41);
             this.panel10.TabIndex = 9;
             // 
             // depChargeTextBox
             // 
             this.depChargeTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.depChargeTextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.depChargeTextBox.Location = new System.Drawing.Point(4, 1);
+            this.depChargeTextBox.Location = new System.Drawing.Point(-6, 1);
             this.depChargeTextBox.Margin = new System.Windows.Forms.Padding(7, 2, 3, 2);
             this.depChargeTextBox.Name = "depChargeTextBox";
-            this.depChargeTextBox.Size = new System.Drawing.Size(307, 34);
+            this.depChargeTextBox.Size = new System.Drawing.Size(317, 34);
             this.depChargeTextBox.TabIndex = 15;
             // 
             // panel11
@@ -440,17 +440,17 @@ namespace hospital_management_system.gui.forms
             this.panel12.Location = new System.Drawing.Point(343, 249);
             this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(331, 41);
+            this.panel12.Size = new System.Drawing.Size(311, 41);
             this.panel12.TabIndex = 16;
             // 
             // labChargeTextBox
             // 
             this.labChargeTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.labChargeTextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.labChargeTextBox.Location = new System.Drawing.Point(4, 3);
+            this.labChargeTextBox.Location = new System.Drawing.Point(-6, 3);
             this.labChargeTextBox.Margin = new System.Windows.Forms.Padding(7, 2, 3, 2);
             this.labChargeTextBox.Name = "labChargeTextBox";
-            this.labChargeTextBox.Size = new System.Drawing.Size(307, 34);
+            this.labChargeTextBox.Size = new System.Drawing.Size(317, 34);
             this.labChargeTextBox.TabIndex = 14;
             // 
             // panel13
@@ -481,17 +481,17 @@ namespace hospital_management_system.gui.forms
             this.panel14.Location = new System.Drawing.Point(343, 298);
             this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(331, 41);
+            this.panel14.Size = new System.Drawing.Size(311, 41);
             this.panel14.TabIndex = 18;
             // 
             // totalTextBox
             // 
             this.totalTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.totalTextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.totalTextBox.Location = new System.Drawing.Point(4, 3);
+            this.totalTextBox.Location = new System.Drawing.Point(-6, 3);
             this.totalTextBox.Margin = new System.Windows.Forms.Padding(7, 2, 3, 2);
             this.totalTextBox.Name = "totalTextBox";
-            this.totalTextBox.Size = new System.Drawing.Size(307, 34);
+            this.totalTextBox.Size = new System.Drawing.Size(317, 34);
             this.totalTextBox.TabIndex = 9;
             // 
             // buttonFlowLayout
@@ -698,14 +698,6 @@ namespace hospital_management_system.gui.forms
             this.birthDateLabel.TabIndex = 16;
             this.birthDateLabel.Text = "Birthdate";
             // 
-            // birthdateTB
-            // 
-            this.birthdateTB.Location = new System.Drawing.Point(4, 342);
-            this.birthdateTB.Margin = new System.Windows.Forms.Padding(4);
-            this.birthdateTB.Name = "birthdateTB";
-            this.birthdateTB.Size = new System.Drawing.Size(0, 0);
-            this.birthdateTB.TabIndex = 29;
-            // 
             // contactNumPanel
             // 
             this.contactNumPanel.Controls.Add(this.contactNumberLabel);
@@ -905,6 +897,14 @@ namespace hospital_management_system.gui.forms
             this.emailTextbox.Size = new System.Drawing.Size(307, 34);
             this.emailTextbox.TabIndex = 35;
             this.emailTextbox.TextChanged += new System.EventHandler(this.emailTextbox_TextChanged);
+            // 
+            // birthdateTB
+            // 
+            this.birthdateTB.Location = new System.Drawing.Point(4, 342);
+            this.birthdateTB.Margin = new System.Windows.Forms.Padding(4);
+            this.birthdateTB.Name = "birthdateTB";
+            this.birthdateTB.Size = new System.Drawing.Size(0, 0);
+            this.birthdateTB.TabIndex = 29;
             // 
             // birthdateCalendar
             // 
